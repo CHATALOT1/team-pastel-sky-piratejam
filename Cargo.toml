@@ -1,0 +1,6 @@
+[package]
+name = "team-pastel-sky-piratejam" # TODO: Update name when game name is decided
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
