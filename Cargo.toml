@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.14.0"
+console_error_panic_hook = "0.1.7"
 
 [profile.dev]
 opt-level = 1
