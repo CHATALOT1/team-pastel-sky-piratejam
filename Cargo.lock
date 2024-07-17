@@ -3333,6 +3333,7 @@ name = "team-pastel-sky-piratejam"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "console_error_panic_hook",
 ]
 
 [[package]]
