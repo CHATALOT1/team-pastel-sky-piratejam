@@ -27,6 +27,8 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - name: Install alsa and udev
         run: sudo apt-get update; sudo apt-get install --no-install-recommends libasound2-dev libudev-dev
+      - name: Install necessary rust toolchain components and cargo tools
+        run: ./scripts/dev_setup.sh
       - name: Build
         run: cargo build --release --target wasm32-unknown-unknown
       - name: Run tests
