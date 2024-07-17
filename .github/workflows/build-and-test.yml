@@ -22,6 +22,8 @@ jobs:
             ~/.cargo/registry/index/
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
+            ~/.cargo/crates.toml
+            ~/.cargo.crates2.json
             target/
           key: ubuntu-cargo-build-${{ hashFiles('**/Cargo.toml') }}
       - uses: dtolnay/rust-toolchain@stable
