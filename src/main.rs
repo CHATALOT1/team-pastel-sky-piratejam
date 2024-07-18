@@ -1,6 +1,5 @@
-//! Pawsable real-time atmospheric stealth game. You play as a cat that must avoid the light while
-//! exploring a house inhabited by strange light beings, using the items you find to create helpful
-//! tools.
+//! Real-time atmospheric stealth game. You play as a cat that must avoid the light while exploring
+//! a house inhabited by strange light beings, using the items you find to create helpful tools.
 #![warn(missing_docs)]
 
 use bevy::prelude::*;
