@@ -1,5 +1,5 @@
 [package]
-name = "phantasmeow" # TODO: Update name when game name is decided
+name = "phantasmeow"
 version = "0.1.0"
 edition = "2021"
 
