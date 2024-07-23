@@ -4,18 +4,27 @@
 
 use bevy::prelude::*;
 
+pub mod board;
+pub mod graphics;
+pub mod sound;
+
 fn main() {
     console_error_panic_hook::set_once();
 
     let mut app = App::new();
 
-    app.add_plugins(DefaultPlugins.build().set(WindowPlugin {
-        primary_window: Some(Window {
-            fit_canvas_to_parent: true,
+    app.add_plugins((
+        DefaultPlugins.build().set(WindowPlugin {
+            primary_window: Some(Window {
+                fit_canvas_to_parent: true,
+                ..Default::default()
+            }),
             ..Default::default()
         }),
-        ..Default::default()
-    }));
+        board::plugin,
+        graphics::GraphicsPlugins,
+        sound::plugin,
+    ));
 
     app.run();
 }
