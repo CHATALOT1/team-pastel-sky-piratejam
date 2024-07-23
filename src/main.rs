@@ -74,7 +74,7 @@ fn movement(
         movement.x *= 5.0;
         movement.y *= 5.0;
 
-        query.get_single_mut().unwrap().translation += vec3(movement.x, movement.y, 2.0);
+        query.get_single_mut().unwrap().translation += vec3(movement.x, movement.y, 0.0);
         event.send(Moving);
     }
 }
