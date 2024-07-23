@@ -12,7 +12,7 @@ use bevy::app::PluginGroupBuilder;
 
 pub mod board;
 
-/// This [`Schedule`] contains systems that update the game's graphics based on changes made. it is
+/// This [`Schedule`] contains systems that update the game's graphics based on changes made. It is
 /// run after [`Update`] and before [`PostUpdate`].
 #[derive(bevy::ecs::schedule::ScheduleLabel, Debug, Clone, PartialEq, Eq, Hash)]
 struct UpdateGraphics;
