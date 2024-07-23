@@ -5,7 +5,7 @@
 //! the *mechanical* functionality that those higher-level modules provide.
 //!
 //! See
-//! [this filter](https://github.com/CHATALOT1/team-pastel-sky-piratejam/issues?q=label%3A%22module%3A+graphics%22)
+//! [this filter](https://github.com/CHATALOT1/team-pastel-sky-piratejam/labels/module%3A%20graphics)
 //! for relevant Issues and PRs.
 use super::*;
 use bevy::app::PluginGroupBuilder;

@@ -1,7 +1,7 @@
 //! Contains all logic/functionality for Game Music and SFX.
 //!
 //! See
-//! [this filter](https://github.com/CHATALOT1/team-pastel-sky-piratejam/issues?q=label%3A%22module%3A+sound%22)
+//! [this filter](https://github.com/CHATALOT1/team-pastel-sky-piratejam/labels/module%3A%20sound)
 //! for relevant Issues and PRs.
 use super::*;
 

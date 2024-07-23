@@ -9,7 +9,7 @@
 //! based SFX should be in [crate::sound].
 //!
 //! See
-//! [this filter](https://github.com/CHATALOT1/team-pastel-sky-piratejam/issues?q=label%3A%22module%3A+board%22)
+//! [this filter](https://github.com/CHATALOT1/team-pastel-sky-piratejam/labels/module%3A%20board)
 //! for relevant Issues and PRs.
 use super::*;
 
