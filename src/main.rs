@@ -6,6 +6,7 @@ use bevy::prelude::*;
 
 pub mod board;
 pub mod graphics;
+pub mod input;
 pub mod sound;
 
 fn main() {
@@ -24,6 +25,7 @@ fn main() {
         board::plugin,
         graphics::GraphicsPlugins,
         sound::plugin,
+        input::plugin,
     ));
 
     app.run();
