@@ -25,12 +25,12 @@ jobs:
       - name: build
         run: 'cargo build --release --target wasm32-unknown-unknown'
       - name: run `wasm-bindgen`
-        run: 'wasm-bindgen --no-typescript --target web --out-dir ./web/ --out-name "phantasmeow-" ./target/wasm32-unknown-unknown/release/team-pastel-sky-piratejam.wasm'
+        run: 'wasm-bindgen --no-typescript --target web --out-dir ./web/ --out-name "phantasmeow-" ./target/wasm32-unknown-unknown/release/phantasmeow.wasm'
             
       - uses: KikimoraGames/itch-publish@v0.0.3
         with:
           butlerApiKey: ${{secrets.butlerApiKey}}
-          gameData: /home/Ari/code/team-pastel-sky-piratejam/web/
+          gameData: ./web/
           itchUsername: pol4r1s
           itchGameId: phantasmeow
           buildChannel: "HTML5"
